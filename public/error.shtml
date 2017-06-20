@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bạn Không có quyền truy cập </title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+	<div class="col-md-12">
+		<div style="margin: 0 25%">
+			<img src="403-forbidden.jpg">
+			<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Click Me</a>
+			<div class="modal fade" id="modal-id">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Tôi Xin Thông Báo Cho Bạn</h4>
+						</div>
+						<div class="modal-body">
+							<img src="icuoi.png" style="width: 50%;height: 50%;margin: 0 25%">
+							<h4 style="color: red">Địt Mẹc Cái Thằng Hacker Giỏi Vãi Đái Ra</h4>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>

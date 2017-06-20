@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+li{
+	list-style: none !important;
+}
+.clear-fix{clear: bolt;}
+#header{
+	height: 200px;
+	background: url('../../../fontend/image/background.jpg') no-repeat;
+}
+.avata{
+	position: absolute;top: 45px;z-index: 1
+}
+.avata img{
+	width: 150px;height: 150px;border-radius: 150px;
+}
+.avata span{
+	color: #fff;font-size: 16px;vertical-align: bottom;
+}
+
+#menu{
+	height: 50px;background-color: #f8f8f8;
+}
+.icon-qc{
+	height: 350px;
+}
+.icon-qc img{
+	width: 100%;
+	height: 100%;
+}
+.table-hover th{border:none !important;}
+#main{
+	width: 100%;
+	height: auto;
+}
+.img-upload{
+	width: 100%;height: 350px;margin-bottom: 20px;
+}
+.img-upload form{
+	margin: 2%;
+}
+.custom-input{
+	width: 100%;height: 190px;background-color: rgba(255,0,0,0.1);position: relative;
+}
+#file-img{
+	width: 50%;
+	padding: 15px 5px;
+	position: absolute;
+	background-color: rgba(255, 0, 0,0.5);
+	overflow: hidden;
+	top: 50%;right: 25%;cursor: pointer;
+}
+#footer{
+	width: 100%;height: auto;
+	background-color: #eee;
+}

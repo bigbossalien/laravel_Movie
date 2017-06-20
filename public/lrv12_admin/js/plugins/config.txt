@@ -1,0 +1,7 @@
+﻿var editor = CKEDITOR.replace('#id',{
+	language:'vi',
+	filebrowserImageBrowseUrl : 'đường dẫn ckfinder.html?Type=Images',
+	filebrowserFlashBrowseUrl : 'đường dẫn ckfinder.html?Type=Flash',
+	filebrowserImageUploadUrl : 'đường dẫn ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',
+	filebrowserFlashUploadUrl : 'đường dẫn ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash',
+});
